@@ -1,0 +1,48 @@
+<div class="ui segment">
+    <div class="ui five inverted cards">
+        <div class="card">
+            <div class="content">
+              <h2 class="header">
+                Cork <span><i class="big violet marker icon"></i></span>
+              </h2> 
+                  <div class="description">
+                    <p>Lat: {{reading2.lat}}</p>
+                    <p>Lon: {{reading2.lng}}</p>
+                  </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <a class="header">Weather <img src="http://openweathermap.org/img/w/{{reading2.icon}}.png"> </a>
+              <div class="description">
+                    <p> {{reading2.main}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <a class="header">Temp <i class="big blue temperature low icon"></i></a>
+                <div class="description">
+                    <p> {{reading2.temperature}}Cº</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <a class="header">Wind <span><i class="big green wind icon"></i></span></a>
+                <div class="description">
+                    <p> {{reading2.windSpeed}}bft</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="content">
+                <a class="header">Pressure <i class="big orange arrows alternate icon"></i></a>
+                <div class="description">
+                    <p>Pressure: {{reading2.pressure}} </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

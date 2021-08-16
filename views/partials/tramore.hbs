@@ -1,0 +1,48 @@
+<div class="ui segment">
+    <div class="ui five inverted cards">
+        <div class="card">
+            <div class="content">
+              <h2 class="header">
+                Tramore <span><i class="big violet marker icon"></i></span>
+              </h2> 
+                  <div class="description">
+                    <p>Lat: {{reading.lat}}</p>
+                    <p>Lon: {{reading.lng}}</p>
+                  </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <a class="header">Weather <img src="http://openweathermap.org/img/w/{{reading.icon}}.png"> </a>
+              <div class="description">
+                    <p> {{reading.main}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <a class="header">Temp <i class="big blue temperature low icon"></i></a>
+                <div class="description">
+                    <p> {{reading.temperature}}Cº</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="content">
+                <a class="header">Wind <span><i class="big green wind icon"></i></span></a>
+                <div class="description">
+                    <p> {{reading.windSpeed}}bft</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="card">
+            <div class="content">
+                <a class="header">Pressure <i class="big orange arrows alternate icon"></i></a>
+                <div class="description">
+                    <p>Pressure: {{reading.pressure}} </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
